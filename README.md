@@ -1,3 +1,4 @@
+<img width="1073" height="1257" alt="image" src="https://github.com/user-attachments/assets/acb168f6-1a1d-48be-bcc3-9aa1d59994df" />
 # Steam Showcase Toolkit
 
 Make GIFs and images for Steam showcases. Frame and trim videos, preview loops, and optimize exports to a per-file byte limit.
