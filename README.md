@@ -1,30 +1,40 @@
-<img width="1073" height="1257" alt="image" src="https://github.com/user-attachments/assets/acb168f6-1a1d-48be-bcc3-9aa1d59994df" />
 # Steam Showcase Toolkit
 
-Make GIFs and images for Steam showcases. Frame and trim videos, preview loops, and optimize exports to a per-file byte limit.
+Create GIFs and images for Steam showcases. Trim videos, adjust the framing, preview loops, and export each file within your chosen size limit.
 
-**[Download the latest Windows release](https://github.com/WitchAtaraxia/Steam-Showcase-Toolkit/releases/latest)**
+**[Download for Windows](https://github.com/WitchAtaraxia/Steam-Showcase-Toolkit/releases/latest)**
 
-## Run
+![Steam Showcase Toolkit interface](https://github.com/user-attachments/assets/acb168f6-1a1d-48be-bcc3-9aa1d59994df)
 
-Extract the ZIP and double-click `SteamShowcaseToolkit.exe`. Keep the `runtime` folder beside it. Requires Windows and Python 3.10 or newer; the launcher installs the media dependencies when needed. An internet connection is required for that first dependency setup. Media processing runs locally.
+## Getting started
+
+1. Install Python 3.10 or newer if you do not already have it.
+2. Download and extract the Windows ZIP from [Releases](https://github.com/WitchAtaraxia/Steam-Showcase-Toolkit/releases/latest).
+3. Run `SteamShowcaseToolkit.exe`. Keep the `runtime` folder beside it.
+
+The launcher installs media dependencies on first use, which requires an internet connection. Media processing runs locally.
 
 ## Features
 
-- Artwork: two synchronized GIF cuts.
-- Workshop: five synchronized GIF cuts.
+- Artwork Showcase: two synchronized GIF cuts.
+- Workshop Showcase: five synchronized GIF cuts.
 - Single GIF: 630px wide, with proportional or custom height.
 - Guide exports, GIF optimization, and vertical collages.
 - Trim, zoom, pan, fit, loop search, and optional smooth loop transitions.
-- Configurable byte limit, including 5,000,000 bytes per GIF.
-- Correct display proportions for videos with non-square pixels.
+- Adjustable size limit for each output GIF.
+- Correct proportions for videos with non-square pixels.
 
-GIF quality depends on dimensions, motion, duration, frame rate, and the byte limit. Shorter clips leave more room for color and detail.
+GIF quality depends on the clip's dimensions, motion, duration, frame rate, and size limit. Shorter clips leave more room for color and detail.
 
 ## Saved projects
 
-Collage projects are stored in `%LOCALAPPDATA%\SteamShowcaseToolkit\projects`, shared across versions. Existing project files in older local installations are copied without overwriting different saves.
+Collage projects are saved in `%LOCALAPPDATA%\SteamShowcaseToolkit\projects`, so they remain available across versions. The toolkit also copies projects from older local installations without overwriting different saves.
 
-## Bundled components
+## More from Witch
 
-The Windows ZIP includes Gifsicle 1.95, its license, and upstream source. Pillow and imageio-ffmpeg are installed by the launcher. Do not remove the runtime files.
+- [Ataraxia Reviews](https://store.steampowered.com/curator/44868341-Ataraxia-Reviews/) — game reviews on Steam.
+- [Witch Steam Enhancer](https://chromewebstore.google.com/detail/witch-steam-enhancer/lapofldlccnjjcddngfkaedinbhcmnag) — browser tools for Steam uploads, profiles, and showcases.
+
+## Third-party components
+
+The Windows download includes Gifsicle 1.95 with its GPL license and upstream source. The launcher installs Pillow and imageio-ffmpeg. These components retain their own licenses.
