@@ -4,7 +4,7 @@ Create GIFs and images for Steam showcases. Trim videos, adjust the framing, pre
 
 **[Download for Windows](https://github.com/WitchAtaraxia/Steam-Showcase-Toolkit/releases/latest)**
 
-![Steam Showcase Toolkit interface](https://github.com/user-attachments/assets/acb168f6-1a1d-48be-bcc3-9aa1d59994df)
+![Steam Showcase Toolkit 1.0 showing a Workshop Showcase preview](screenshot.png)
 
 ## Getting started
 
@@ -38,3 +38,9 @@ Collage projects are saved in `%LOCALAPPDATA%\SteamShowcaseToolkit\projects`, so
 ## Third-party components
 
 The Windows download includes Gifsicle 1.95 with its GPL license and upstream source. The launcher installs Pillow and imageio-ffmpeg. These components retain their own licenses.
+
+## License
+
+The original application source is licensed under [GNU GPLv3](LICENSE). Logos and branding artwork are excluded. Third-party components keep their own licenses.
+
+The legacy EXE launcher's source and licensing provenance are still being checked; it is outside this license grant. See [LICENSING.md](LICENSING.md) for the scope and component details.
