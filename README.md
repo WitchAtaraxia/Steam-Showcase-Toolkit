@@ -21,8 +21,10 @@ The launcher installs media dependencies on first use, which requires an interne
 - Single GIF: 630px wide, with proportional or custom height.
 - Guide exports, GIF optimization, and vertical collages.
 - Trim, zoom, pan, fit, loop search, and optional smooth loop transitions.
+- Video thumbnail timeline with draggable Start and End handles and a live preview.
 - Adjustable size limit for each output GIF.
 - Correct proportions for videos with non-square pixels.
+- Update notifications when a newer GitHub release is available.
 
 GIF quality depends on the clip's dimensions, motion, duration, frame rate, and size limit. Shorter clips leave more room for color and detail.
 
