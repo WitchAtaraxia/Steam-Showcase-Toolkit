@@ -4,7 +4,7 @@ Create GIFs and images for Steam showcases. Trim videos, adjust the framing, pre
 
 **[Download for Windows](https://github.com/WitchAtaraxia/Steam-Showcase-Toolkit/releases/latest)**
 
-![Steam Showcase Toolkit 1.0 showing a Workshop Showcase preview](screenshot.png)
+<img width="1070" height="1250" alt="image" src="https://github.com/user-attachments/assets/7c5e8be1-1187-4e22-95c7-d7b4e42f57cc" />
 
 ## Getting started
 
