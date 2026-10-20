@@ -1,6 +1,6 @@
 # Steam Showcase Toolkit
 
-Create GIFs and images for Steam showcases. Trim videos, adjust the framing, preview loops, and export each file within your chosen size limit.
+Create GIFs and images for Steam showcases. Trim videos, adjust the framing, preview loops, and export GIFs within Steam's 5 MiB limit.
 
 **[Download for Windows](https://github.com/WitchAtaraxia/Steam-Showcase-Toolkit/releases/latest)**
 
@@ -22,11 +22,16 @@ The launcher installs media dependencies on first use, which requires an interne
 - Guide exports, GIF optimization, and vertical collages.
 - Trim, zoom, pan, fit, loop search, and optional smooth loop transitions.
 - Video thumbnail timeline with draggable Start and End handles and a live preview.
-- Adjustable size limit for each output GIF.
+- Tint color and strength controls beside the live preview.
+- Drop GIFs, images, or videos anywhere on the Showcase page.
+- Export batches to folders beside the tool, or download a ZIP.
+- Automatic 5 MiB size limit for each output GIF.
 - Correct proportions for videos with non-square pixels.
 - Update notifications when a newer GitHub release is available.
 
 GIF quality depends on the clip's dimensions, motion, duration, frame rate, and size limit. Shorter clips leave more room for color and detail.
+
+Exports are saved in `Exports` beside the `runtime` folder, with a separate folder for each batch. The folder opens when the files are ready. Choose **Download ZIP instead** in Extra Options if you prefer a ZIP.
 
 ## Saved projects
 
