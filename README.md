@@ -22,6 +22,7 @@ The launcher installs media dependencies on first use, which requires an interne
 - Guide exports, GIF optimization, and vertical collages.
 - Trim, zoom, pan, fit, loop search, and optional smooth loop transitions.
 - Video thumbnail timeline with draggable Start and End handles and a live preview.
+- Choose a tint color and strength, preview it live, and apply it to every exported cut.
 - Adjustable size limit for each output GIF.
 - Correct proportions for videos with non-square pixels.
 - Update notifications when a newer GitHub release is available.
